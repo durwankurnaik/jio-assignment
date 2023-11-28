@@ -21,7 +21,7 @@ const Work = () => {
           );
         })}
       </div>
-      <div className="span pt-10 md:pt-16 pb-2 text-center text-[var(--complementary-color)]">
+      <div className="span pt-10 md:pt-16 pb-1 text-center text-[var(--complementary-color)]">
         Note: To see more of my work, head over to my{" "}
         <a
           href="https://github.com/durwankurnaik?tab=repositories"

@@ -18,7 +18,7 @@ const Hero = () => {
           </div>
           <div>
             <h2>- Full-Stack Web Developer</h2>
-            <h2>- Web Designer</h2>
+            <h2>- Linux G33k</h2>
             <h2>- Tech Enthusiast</h2>
           </div>
           <p>
@@ -28,7 +28,7 @@ const Hero = () => {
             <span>Internet</span>
           </p>
           <button>
-            <a href="/resume.pdf" download="resume.pdf">View my Resume</a>
+            <a href="/resume.pdf" download="resume.pdf">Get my Resume</a>
           </button>
         </div>
       </div>

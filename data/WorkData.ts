@@ -34,7 +34,7 @@ const data: {
     title: "Restaurant Landing page",
     techStack: "ReactJS, CSS",
     description:
-      "A modern looking and clean responsive figma design implemented using ReactJS and styled using CSS.",
+      "Introducing a sleek Figma design, powered by ReactJS for seamless responsiveness. Styled with CSS for a modern touch, this interface promises both a polished and user-friendly experience",
     image: RestaurantLanding,
     siteUrl: "https://restaurant-landingpage.web.app/",
     codeUrl: "https://github.com/durwankurnaik/modern-ui-implementation-2",
