@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color-light: #eae3d2;
+  --bg-color-dark: #1e202a;
+  --bg-color-secondary-light: #e9e5e1;
+  --bg-color-secondary-dark: #313134;
+  --text-color-light: #1c3879;
+  --text-color-dark: #eae3d2;
+  --complementary-color: #607eaa;
+}
+
+body.dark {
+  --bg-color: var(--bg-color-dark);
+  --text-color: var(--text-color-dark);
+  --bg-color-secondary: var(--bg-color-secondary-dark);
+}
+
+body.light {
+  --bg-color: var(--bg-color-light);
+  --text-color: var(--text-color-light);
+  --bg-color-secondary: var(--bg-color-secondary-light);
+}
+
+html,
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+
+  @media (min-width: 640px) {
+    font-size: 18px;
+  }
+}
+
+/* Visual enhances */
+/* Hide scrollbar for Chromium based browsers */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Change the color and background color of the selected text */
+::selection {
+  color: var(--bg-color); /* Change this to your desired color */
+  background-color: var(
+    --text-color
+  ); /* Change this to your desired background color */
+}
+
+/* Typography */
+ul > a > li {
+  @apply uppercase font-semibold cursor-pointer hover:underline underline-offset-8;
+}
+
+h1 {
+  @apply text-xl sm:text-3xl font-semibold;
+}
+
+h2 {
+  @apply text-base sm:text-xl font-semibold;
+}
+
+span {
+  @apply font-bold;
+}
+
+button {
+  @apply bg-[var(--complementary-color)] text-[var(--bg-color)] rounded-lg  px-4 py-2 w-40;
+}
+
+input,
+textarea {
+  @apply bg-[var(--bg-color-secondary)] border border-[var(--complementary-color)] outline-[var(--complementary-color)] focus:outline-none rounded-lg px-4 py-2;
+}
