@@ -16,7 +16,7 @@ const Contact = () => {
             onSubmit={handleSubmit}
             className="flex flex-col gap-5 md:gap-10"
           >
-            <input type="text" name="FullName" placeholder="Name" />
+            <input type="text" name="Name" placeholder="Name" />
             <input type="text" name="Email" placeholder="Email" />
             <textarea name="Message" placeholder="Message" rows={5} />
             <button>Submit</button>

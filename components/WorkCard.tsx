@@ -54,7 +54,7 @@ const WorkCards: React.FC<WorkCardProps> = ({
         </div>
       </div>
       <div className="flex-1 flex justify-center">
-        <Image className="rounded-md" src={image} alt="responsive-dashboard-img" width={600} />
+        <Image className="rounded-md" src={image} alt="project-image" width={600} />
       </div>
     </article>
   );
